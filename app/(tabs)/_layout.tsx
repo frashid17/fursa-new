@@ -19,7 +19,7 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: true, // Hide headers for tabs
+        headerShown: true, 
       }}
     >
       
@@ -40,7 +40,7 @@ export default function TabLayout() {
         ),
       }}
       />
-      
+
       <Tabs.Screen
         name="account"
         options={{
